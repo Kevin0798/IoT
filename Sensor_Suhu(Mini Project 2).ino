@@ -41,7 +41,6 @@ void loop() {
         Serial.println("Failed to read from DHT sensor!");
         return;
       }
-      
       Serial.print("Humidity: ");
       Serial.print(h);
       Serial.print(" %\t");
